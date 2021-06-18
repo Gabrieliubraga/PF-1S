@@ -20,7 +20,7 @@ i {
 
 .footer {
 
-	background: #02001f;
+	background: #06044e;
 	height: 400px;
 	display: flex;
 	justify-content: space-around;
@@ -33,7 +33,7 @@ h1 {
 	text-align: center;
 	font-weight: bold;
 	font-size: 2rem;
-	color: #462749;
+	color: #000000;
 	margin-bottom: 0rem;
 	margin-top: 2rem;
 }
@@ -58,7 +58,7 @@ h4 {
 }
 
 .menu {
-	color: b#02001f;
+	color: b#000000;
 	display: flex;
 	justify-content: space-between;
 	padding: 0 40px 0 40px;
@@ -89,7 +89,7 @@ object-fit: contain;
 }
 
 .header {
-	background-color: #000000;
+	background-color: #06044e;
 	display: flex;
 	justify-content: center;
 }
@@ -440,7 +440,7 @@ iframe {
 }
 
 .icones i:hover {
-	color: rgb(119, 55, 126);
+	color: rgb(0, 0, 0);
 }
 
 .edit > div {
@@ -565,7 +565,7 @@ select:focus {
 	width: 100px;
 	background-color: rgb(0, 0, 0);
 	border: none;
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 	font-size: 1rem;
 	padding: 5px 20px;
 	border-radius: 15px;
@@ -625,7 +625,7 @@ select:focus {
 }
 @media screen and (max-width: 767.98px) {
 	.menu {
-		color: #02001f;
+		color: #000000;
 		flex-direction: column;
 	}
 
