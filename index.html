@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <title>Cine Potato</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style_index.css">
+    <script src="https://kit.fontawesome.com/f1dfbbf516.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,900;1,800&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+
+    <header class="header">
+        <nav class="container navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid d-flex justify-content-center">
+                <a class="navbar-brand d-flex justify-content-center me-0" href="#"><img class="logo"
+                        src="img/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item mouse">
+                            <a class="nav-link" href="#lancamento">LANÇAMENTOS</a>
+                        </li>
+                        <li class="nav-item mouse">
+                            <a class="nav-link" href="#destaque">DESTAQUE</a>
+                        </li>
+                        <li class="nav-item mouse">
+                            <a class="nav-link" href="#avaliacoes">AVALIAÇÕES</a>
+                        </li>
+                        <li class="nav-item mouse">
+                            <a class="nav-link" href="#entrevista">ENTREVISTAS</a>
+                        </li>
+                        <li class="nav-item mouse">
+                            <a class="nav-link" href="#novidades">NOVIDADES</a>
+                        </li>
+                        <li class="nav-item mouse">
+                            <a class="nav-link" href="./search.html">PESQUISAR</a> 
+                    </ul>
+                    <form class="d-flex">
+
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="main">
+
+        <section id="lancamento">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>
+                            LANÇAMENTOS
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-12">
+
+                        <div id="carrossel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators botoes">
+                                <button type="button" data-bs-target="#carrossel" data-bs-slide-to="0" class="active"
+                                    aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carrossel" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carrossel" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner d-flex">
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 video">
+                                            <iframe width="450" height="280"
+                                                src="https://www.youtube.com/embed/fUHZ9NFN3_Y"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 descricao">
+                                            <div class="row">
+                                                <h3>Batman: Alma do Dragão
+                                                </h3>
+                                            </div>
+                                            <div class="row">
+                                                <p class="sinopse">Batman enfrenta inimigos do passado com a ajuda de
+                                                    três antigos colegas: o treinador de artes marciais Richard Dragon
+                                                    , Ben Turner e Lady Shiva.
+                                                </p>
+                                            </div>
+                                            <div class="row info">
+                                                <p class="col-4"><b>Diretor:</b> Sam Liu</p>
+                                                <p class="col-4"><b>Roteiro:</b> Sam Liu</p>
+                                                <p class="col-4"><b>Estreia:</b> 2021</p>
+                                            </div>
+                                            <div class="row info">
+                                                <p class="row elenco">Autores:</p>
+                                                <div class="row nomes">
+                                                    <div class="col-3">
+                                                        <p>Bob Kane</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p>Bill Finger</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p></p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <p class="col-12 p-avaliacao">Avaliação:</p>
+                                                <div class="row">
+                                                    <div class="col-12 avaliacao">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="far fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 video">
+                                            <iframe width="450" height="280"
+                                                src="https://www.youtube.com/embed/9wAF0NtOCc4"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 descricao">
+                                            <div class="row">
+                                                <h3>Cabras da Peste</h3>
+                                            </div>
+                                            <div class="row">
+                                                <p class="sinopse">Bruceuilis, um policial do interior do Ceará, viaja
+                                                    até São Paulo para
+                                                    resgatar Celestina, uma cabra considerada patrimônio de sua cidade.
+                                                    Na capital
+                                                    paulista, ele encontra Trindade, um escrivão da polícia que decide
+                                                    sair do marasmo de
+                                                    seu trabalho e ajudá-lo na aventura, mesmo não sendo sua
+                                                    especialidade.</p>
+                                            </div>
+                                            <div class="row info">
+                                                <p class="col-4"><b>Diretor:</b> Vitor Brandt</p>
+                                                <p class="col-4"><b>Roteiro:</b> Vitor Brandt</p>
+                                                <p class="col-4"><b>Estreia:</b> 2021</p>
+                                            </div>
+                                            <div class="row info">
+                                                <p class="row elenco">Elenco:</p>
+                                                <div class="row nomes">
+                                                    <div class="col-3">
+                                                        <p>Edmilson Filho</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p>Letícia Lima</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p>Matheus Nachtergaele</p>
+                                                    </div>
+                                                    <div class="col-3">
+                                                        <p>Falcão</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <p class="col-12 p-avaliacao">Avaliação:</p>
+                                                <div class="row">
+                                                    <div class="col-12 avaliacao">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="far fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 video">
+                                            <iframe width="450" height="280"
+                                                src="https://www.youtube.com/embed/ZHtPm8v-yNw"
+                                                title="YouTube video player" frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 descricao">
+                                            <div class="row">
+                                                <h3>Bliss</h3>
+                                            </div>
+                                            <div class="row">
+                                                <p class="sinopse">Traduzido do inglês-Bliss é um drama americano de
+                                                    2021 escrito e dirigido por Mike Cahill.
+                                                    É estrelado por Owen Wilson e Salma Hayek. Um homem de meia-idade,
+                                                    recentemente divorciado e afastado da família,
+                                                    sofre um surto psicótico ao ser despedido de um emprego infeliz.</p>
+                                            </div>
+                                            <div class="row info">
+                                                <p class="col-4"><b>Diretor:</b> Mike Cahill</p>
+                                                <p class="col-4"><b>Roteiro:</b> Mike Cahill</p>
+                                                <p class="col-4"><b>Estreia:</b> 2021</p>
+                                            </div>
+                                            <div class="row info">
+                                                <p class="row elenco">Elenco:</p>
+                                                <div class="row nomes">
+                                                    <div class="col-4">
+                                                        <p>Salma Hayek</p>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <p>Owen Wilson</p>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <p>Madeline Zima</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <p class="col-12 p-avaliacao">Avaliação:</p>
+                                                <div class="row">
+                                                    <div class="col-12 avaliacao">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carrossel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carrossel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="destaque">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-6 em-destaque">
+                        <h2>
+                            EM DESTAQUE
+                        </h2>
+                    </div>
+
+                    <nav class="col-6 em-destaque">
+                        <a class="btn btn-primary mb-1 categorias" data-bs-toggle="collapse" href="#collapseExample"
+                            role="button" aria-expanded="false" aria-controls="collapseExample"> Categorias
+                            <i class="fas fa-bars"></i>
+                        </a>
+
+                        <div class="collapse colapso" id="collapseExample">
+                            <div class="card card-body">
+                                <ul class="nav flex-column menu-index-mobile card card-body">
+                                    <li class="nav-item">
+                                        <a class="nav-link active menu" aria-current="page"
+                                            href="index.html">Aventura</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Romance</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Comédia</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </nav>
+                </div>
+
+                <div class="row banners">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                        <img src="https://i.pinimg.com/564x/30/4d/3d/304d3da27665065d4d405cabb76cd50d.jpg">
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                        <img src="https://i.pinimg.com/originals/c3/66/f4/c366f41079415c1c2194020134c5b522.png">
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                        <img src="https://br.web.img2.acsta.net/pictures/20/03/18/15/48/0121118.jpg">
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                        <img src="https://i.pinimg.com/474x/b9/c2/ea/b9c2ea6ef70cccef47c87ce243c510f2.jpg">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button type="button" class="btn btn-primary me-md-0">+ Carregar mais filmes</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section id="avaliacoes">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12">
+                        <h2>
+                            ÚLTIMAS AVALIAÇÕES
+                        </h2>
+                    </div>
+
+                </div>
+
+                <div class="row avaliacoes">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 descricao_1">
+                        <div class="row d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-3 col-md-2 col-lg-4 d-flex justify-content-center foto-perfil">
+                                    <img
+                                        src="https://notagamer.net/wp-content/uploads/2019/12/image-46-e1575389342478.png">
+                                </div>
+                                <div class="col-9 col-md-10 col-lg-8 d-flex justify-content-start">
+                                    <p class="nome">Júlia</p>
+                                </div>
+                            </div>
+
+                            <div class="row box-avaliacao">
+                                <p>
+                                    Gostei do filme mas acho que poderia ser melhor.
+                                    Nos 1 e no 2 eles se dedicaram mais , porém agora
+                                    acho que perderam a mão...
+                                    Confeso que adorava essa sequência , mas fiquei um pouco
+                                    decepcionada agora!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row icon_data">
+                            <div class="col-6 d-flex justify-content-center">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="col-6 d-flex justify-content-center data">
+                                <p>11/11/2020</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 descricao_2">
+                        <div class="row d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-3 col-md-2 col-lg-4 d-flex justify-content-center foto-perfil">
+                                    <img src="https://pbs.twimg.com/media/EOQwwFaW4AEs3r1.jpg">
+                                </div>
+                                <div class="col-9 col-md-10 col-lg-8 d-flex justify-content-start">
+                                    <p class="nome">Danyel</p>
+                                </div>
+                            </div>
+                            <div class="row box-avaliacao">
+                                <p>
+                                    Não gostei do filme! Os atores não entraram no personagem
+                                    e a atuação não foi tão boa quanto o desejado. O cenário
+                                    também não foi favorável , esperava mais...
+                                </p>
+                            </div>
+                            <div class="row icon_data">
+                                <div class="col-6 d-flex justify-content-center">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="col-6 d-flex justify-content-center data">
+                                    <p>27/3/2021</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 descricao_3">
+                        <div class="row d-flex justify-content-center">
+                            <div class="row">
+                                <div class="col-3 col-md-2 col-lg-4 d-flex justify-content-center foto-perfil">
+                                    <img src="https://esportspedia-streamers.s3.amazonaws.com/2/28/Kami.jpg">
+                                </div>
+                                <div class="col-9 col-md-10 col-lg-8 d-flex justify-content-start">
+                                    <p class="nome">Gabriel Santos</p>
+                                </div>
+                            </div>
+
+                            <div class="row box-avaliacao">
+                                <p>
+                                    Achei o filme simplesmente perfeito!
+                                    Poderia ser melhor só na parte da imagem , mas entendo que eles não
+                                    tinham muita verba nessa sequência, de toda forma amei!
+                                </p>
+                            </div>
+                            <div class="row icon_data">
+                                <div class="col-6 d-flex justify-content-center ">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <div class="col-6 d-flex justify-content-center data">
+                                    <p>1/4/2021</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button type="button" class="btn btn-primary me-md-0">+ Carregar mais avaliações</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="entrevista">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>
+                            ENTREVISTAS & MAKING OF
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                        <div class="row videos">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-12 d-flex justify-content-center">
+                                <iframe width="350" height="180" src="https://www.youtube.com/embed/Ciu5yQYwJgY"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="col-12 col-sm-12 col-lg-12 col-md-6 textinhos">
+                                <div class="row">
+                                    <h4>Vingadores: Era de Ultron</h4>
+                                    <p><b>Diretor:</b> Joss Whedon</p>
+                                    <p><b>Roteiro:</b> Joss Whedon</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                        <div class="row videos">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-12 d-flex justify-content-center">
+                                <iframe width="350" height="180" src="https://www.youtube.com/embed/fguB82p0agc"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-12 textinhos">
+                                <div class="row">
+                                    <h4>Velozes e Furiosos 5: Operação Rio</h4>
+                                    <p><b>Diretor:</b> Justin Lin</p>
+                                    <p><b>Roteiro:</b> Chris Morgan, Gary Scott Thompson</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                        <div class="row videos">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-12 d-flex justify-content-center">
+                                <iframe width="350" height="180" src="https://www.youtube.com/embed/0HEvyxNJRks"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-12 textinhos">
+                                <div class="row">
+                                    <h4>Aquaman</h4>
+                                    <p><b>Diretor:</b> James Wan</p>
+                                    <p><b>Roteiro:</b> David Leslie Johnson, Will Beall</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button type="button" class="btn btn-primary me-md-0">+ Carregar mais filmes</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="novidades" class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+                    <div class="row">
+                        <h2 class="novidades">NOVIDADES</h2>
+                    </div>
+
+                    <div class="row news">
+                        <div
+                            class="col-12 col-sm-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center">
+                            <img
+                                src="https://legadodamarvel.com.br/wp-content/uploads/2020/09/Fa-Poster-Pantera-Negra-2-Shuri-legadodamarvel.jpg">
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+                            <div class="row">
+                                <h4>'Pantera Negra 2' estreia em julho de 2022 e não vai substituir Chadwick Boseman
+                                </h4>
+                                <p>Marvel promete 'honrar legado' do ator, que morreu em agosto, e sua interpretação do
+                                    herói ao explorar reino de Wakanda.
+                                    A sequência, que tem previsão de estreia em 8 de julho de 2022 nos Estados Unidos,
+                                    vai focar no reino fictício de Wakanda
+                                    e nos outros personagens apresentador no primeiro filme.
+                                </p>
+                            </div>
+                            <div class="row news-1">
+                                <div class="col-12 tags">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="row">
+
+                    <div class="row news">
+                        <div
+                            class="col-12 col-sm-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center">
+                            <img
+                                src="https://4.bp.blogspot.com/-VkBofCMgUKk/Tvit3prfP7I/AAAAAAAAV0Y/mJFUfBSgo48/s400/6-10-08-warner_bros.jpg">
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+                            <div class="row">
+                                <h4>Filmes da Warner voltarão a sair antes no cinema em 2022</h4>
+                                <p>O CEO da WarnerMedia, Jason Kilar, afirmou que os grandes lançamentos do estúdio em
+                                    2022 irão voltar a sair primeiro no cinema. Este ano, por conta da pandemia de
+                                    covid-19, a empresa adotou a estratégia de estreias simultâneas dos filmes com o HBO
+                                    Max, nova plataforma de streaming.
+                                </p>
+                            </div>
+                            <div class="row news-1">
+                                <div class="col-12 tags">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <hr class="row">
+
+                    <div class="row news">
+                        <div
+                            class="col-12 col-sm-12 col-md-12 col-lg-4 d-flex align-items-center justify-content-center">
+                            <img src="https://media1.tenor.com/images/565813938cb13100bbeb9625d418df0a/tenor.gif?itemid=4751909">
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+                            <div class="row">
+                                <h4>DC planeja 6 filmes por ano a partir de 2022; 4 nos cinemas, 2 no streaming</h4>
+                                <p>Prepare-se para uma verdadeira abundância de conteúdo da DC nos cinemas
+                                     - e no streaming. De acordo com Walter Hamada, presidente da divisão de filmes da editora de HQs, 
+                                     o plano da empresa é produzir nada menos do que seis filmes por ano a partir de 2022...</p>
+                            </div>
+                            <div class="row news-1">
+                                <div class="col-12 tags">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4">
+                    <div class="row d-flex justify-content-center">
+                        <h2 class="row sobre">
+                            Sobre
+                        </h2>
+                        <p class="row sobre-descricao">
+                            Portal de filme e séries onde sempre iremos te mander informado sobre o mundo cinematográfico!
+                            Essa é sua chance perfeita para não perder nenhuma novidade. 
+                            Siga nossas redes sociais!!!
+                        </p>
+                    </div>
+
+                    <div class="row editorial d-flex justify-content-center">
+                        <h2 class="row">
+                            Editorial
+                        </h2>
+                        <div class="row edit">
+                            <div class="col-2 d-flex justify-content-center">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="col-10">
+                                <p>
+                                    <b> Fundador:</b> Gabriel Iuri
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2 d-flex justify-content-center">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="col-10">
+                                <p>
+                                    <b> Editor:</b> Gabriel Iuri
+                                </p>
+                            </div>
+                        </div>                       
+                    </div>
+
+                    <div class="row social d-flex justify-content-center">
+                        <h3 class="row">redes sociais:</h3>
+                        <div class="row icones">
+                            <div class="col-12">
+                                <a href="https://www.facebook.com/inutchiou/" target="_blank"><i
+                                        class="fab fa-facebook-square"></i></a>
+                                <a href="https://www.instagram.com/iuri_interdimensional/" target="_blank"><i
+                                        class="fab fa-instagram"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-11 col-lg-8 d-flex justify-content-start align-items-center">
+                <p>
+                    Copyright 2021 - Gabriel Iuri - Puc Minas DIW
+                </p>
+            </div>
+            <div class="col-12 col-md-1 col-lg-4 d-flex justify-content-end rodape">
+                <img src="img/logo.png">
+            </div>
+        </div>
+        </div>
+
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
